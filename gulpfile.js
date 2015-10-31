@@ -30,7 +30,7 @@ gulp.task('js', watchify((watchify) => {
       setup: function(b) {
         b.transform(babelify.configure({
           sourceMap: true,
-          sourceMapRelative: __dirname
+          sourceMapRelative: __dirname + conf.src
         }));
       }
     }))

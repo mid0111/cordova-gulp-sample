@@ -12,6 +12,9 @@
     "prebuild": "npm install",
     "build": "pushd build && cordova build && popd",
 
+    "android": "pushd build && cordova run android && popd",
+    "browser": "pushd build && cordova run browser && popd",
+
     "pretest": "npm run build",
     "test": "npm test"
   },
