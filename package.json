@@ -1,5 +1,5 @@
 {
-  "name": "shizuoka-gomicierge",
+  "name": "cordova-gulp-sample",
   "version": "0.0.1",
   "description": "Concierge of trush at Shizuoka.",
   "main": "index.js",
@@ -19,8 +19,8 @@
     "test": "npm test"
   },
   "keywords": [
-    "gomi",
-    "trush"
+    "gulp",
+    "cordova"
   ],
   "author": "mid0111",
   "license": "MIT",
