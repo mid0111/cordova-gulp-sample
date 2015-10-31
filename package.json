@@ -1,0 +1,34 @@
+{
+  "name": "shizuoka-gomicierge",
+  "version": "0.0.1",
+  "description": "Concierge of trush at Shizuoka.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run init",
+
+    "init": "rm -rf build/* && cordova create build && pushd build && cordova platform add android browser && popd",
+    "postinit": "gulp build",
+
+    "prebuild": "npm install",
+    "build": "pushd build && cordova build && popd",
+
+    "pretest": "npm run build",
+    "test": "npm test"
+  },
+  "keywords": [
+    "gomi",
+    "trush"
+  ],
+  "author": "mid0111",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "browser-sync": "^2.9.11",
+    "browserify": "^9.0.8",
+    "cordova": "^5.3.3",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-watchify": "^0.5.0",
+    "watchify": "^3.5.0"
+  }
+}
