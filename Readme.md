@@ -4,6 +4,7 @@ Gulpfile for cordova project
 Sample project for cordova developed with gulp.  
 Build js file using browserify(babelify), then build cordova application using command line from npm script.  
 
+
 ## Note
 
 Default target platform is android and browser.
@@ -25,7 +26,7 @@ npm run build
 
 ## Folder structure
 
-```
+```bash
 .
 ├── build  # Output folder for cordova build.
 ├── gulpfile.js
