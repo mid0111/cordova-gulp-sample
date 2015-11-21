@@ -8,6 +8,7 @@ Build js file using browserify(babelify), then build cordova application using c
 
 Default target platform is android and browser.
 
+
 ## Usage
 
 ### Init project
