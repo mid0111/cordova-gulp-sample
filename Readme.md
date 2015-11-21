@@ -25,7 +25,7 @@ npm run build
 
 ## Folder structure
 
-```
+```bash
 .
 ├── build  # Output folder for cordova build.
 ├── gulpfile.js
